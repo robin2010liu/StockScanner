@@ -5,166 +5,236 @@
 <title>StockScanner – Backtest Index</title>
 <style>
 body {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI;
   padding: 2rem;
 }
-li { margin: 0.4rem 0; }
-a { text-decoration: none; color: #0066cc; }
-a:hover { text-decoration: underline; }
+
+h1 {
+  margin-bottom: 0.4rem;
+}
+
+p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.column {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.column h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.35rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
+
 <body>
 <h1>📊 Backtest Results</h1>
-<p>Updated: 2026-01-03 17:27 UTC</p>
-<ul>
-<li><a href="backtest_result_^HSI_1wk.html" target="_blank">backtest_result_^HSI_1wk.html</a></li>
-<li><a href="backtest_result_^HSI_1d.html" target="_blank">backtest_result_^HSI_1d.html</a></li>
-<li><a href="backtest_result_VNAM_1wk.html" target="_blank">backtest_result_VNAM_1wk.html</a></li>
-<li><a href="backtest_result_VNAM_1d.html" target="_blank">backtest_result_VNAM_1d.html</a></li>
-<li><a href="backtest_result_UNH_1wk.html" target="_blank">backtest_result_UNH_1wk.html</a></li>
-<li><a href="backtest_result_UNH_1d.html" target="_blank">backtest_result_UNH_1d.html</a></li>
-<li><a href="backtest_result_UFO_1wk.html" target="_blank">backtest_result_UFO_1wk.html</a></li>
-<li><a href="backtest_result_UFO_1d.html" target="_blank">backtest_result_UFO_1d.html</a></li>
-<li><a href="backtest_result_TWST_1wk.html" target="_blank">backtest_result_TWST_1wk.html</a></li>
-<li><a href="backtest_result_TWST_1d.html" target="_blank">backtest_result_TWST_1d.html</a></li>
-<li><a href="backtest_result_TSLA_1wk.html" target="_blank">backtest_result_TSLA_1wk.html</a></li>
-<li><a href="backtest_result_TSLA_1d.html" target="_blank">backtest_result_TSLA_1d.html</a></li>
-<li><a href="backtest_result_TRMB_1wk.html" target="_blank">backtest_result_TRMB_1wk.html</a></li>
-<li><a href="backtest_result_TRMB_1d.html" target="_blank">backtest_result_TRMB_1d.html</a></li>
-<li><a href="backtest_result_TQQQ_1wk.html" target="_blank">backtest_result_TQQQ_1wk.html</a></li>
-<li><a href="backtest_result_TQQQ_1d.html" target="_blank">backtest_result_TQQQ_1d.html</a></li>
-<li><a href="backtest_result_TOST_1wk.html" target="_blank">backtest_result_TOST_1wk.html</a></li>
-<li><a href="backtest_result_TOST_1d.html" target="_blank">backtest_result_TOST_1d.html</a></li>
-<li><a href="backtest_result_TER_1wk.html" target="_blank">backtest_result_TER_1wk.html</a></li>
-<li><a href="backtest_result_TER_1d.html" target="_blank">backtest_result_TER_1d.html</a></li>
-<li><a href="backtest_result_TEM_1wk.html" target="_blank">backtest_result_TEM_1wk.html</a></li>
-<li><a href="backtest_result_TEM_1d.html" target="_blank">backtest_result_TEM_1d.html</a></li>
-<li><a href="backtest_result_TECL_1wk.html" target="_blank">backtest_result_TECL_1wk.html</a></li>
-<li><a href="backtest_result_TECL_1d.html" target="_blank">backtest_result_TECL_1d.html</a></li>
-<li><a href="backtest_result_SPY_1wk.html" target="_blank">backtest_result_SPY_1wk.html</a></li>
-<li><a href="backtest_result_SPY_1d.html" target="_blank">backtest_result_SPY_1d.html</a></li>
-<li><a href="backtest_result_SPXL_1wk.html" target="_blank">backtest_result_SPXL_1wk.html</a></li>
-<li><a href="backtest_result_SPXL_1d.html" target="_blank">backtest_result_SPXL_1d.html</a></li>
-<li><a href="backtest_result_SOXL_1wk.html" target="_blank">backtest_result_SOXL_1wk.html</a></li>
-<li><a href="backtest_result_SOXL_1d.html" target="_blank">backtest_result_SOXL_1d.html</a></li>
-<li><a href="backtest_result_SOL-USD_1wk.html" target="_blank">backtest_result_SOL-USD_1wk.html</a></li>
-<li><a href="backtest_result_SOL-USD_1d.html" target="_blank">backtest_result_SOL-USD_1d.html</a></li>
-<li><a href="backtest_result_SLV_1wk.html" target="_blank">backtest_result_SLV_1wk.html</a></li>
-<li><a href="backtest_result_SLV_1d.html" target="_blank">backtest_result_SLV_1d.html</a></li>
-<li><a href="backtest_result_RXRX_1wk.html" target="_blank">backtest_result_RXRX_1wk.html</a></li>
-<li><a href="backtest_result_RXRX_1d.html" target="_blank">backtest_result_RXRX_1d.html</a></li>
-<li><a href="backtest_result_ROKU_1wk.html" target="_blank">backtest_result_ROKU_1wk.html</a></li>
-<li><a href="backtest_result_ROKU_1d.html" target="_blank">backtest_result_ROKU_1d.html</a></li>
-<li><a href="backtest_result_RKLB_1wk.html" target="_blank">backtest_result_RKLB_1wk.html</a></li>
-<li><a href="backtest_result_RKLB_1d.html" target="_blank">backtest_result_RKLB_1d.html</a></li>
-<li><a href="backtest_result_RIVN_1wk.html" target="_blank">backtest_result_RIVN_1wk.html</a></li>
-<li><a href="backtest_result_RIVN_1d.html" target="_blank">backtest_result_RIVN_1d.html</a></li>
-<li><a href="backtest_result_QTUM_1wk.html" target="_blank">backtest_result_QTUM_1wk.html</a></li>
-<li><a href="backtest_result_QTUM_1d.html" target="_blank">backtest_result_QTUM_1d.html</a></li>
-<li><a href="backtest_result_QQQ_1wk.html" target="_blank">backtest_result_QQQ_1wk.html</a></li>
-<li><a href="backtest_result_QQQ_1d.html" target="_blank">backtest_result_QQQ_1d.html</a></li>
-<li><a href="backtest_result_PSNL_1wk.html" target="_blank">backtest_result_PSNL_1wk.html</a></li>
-<li><a href="backtest_result_PSNL_1d.html" target="_blank">backtest_result_PSNL_1d.html</a></li>
-<li><a href="backtest_result_PONY_1wk.html" target="_blank">backtest_result_PONY_1wk.html</a></li>
-<li><a href="backtest_result_PONY_1d.html" target="_blank">backtest_result_PONY_1d.html</a></li>
-<li><a href="backtest_result_POET_1wk.html" target="_blank">backtest_result_POET_1wk.html</a></li>
-<li><a href="backtest_result_POET_1d.html" target="_blank">backtest_result_POET_1d.html</a></li>
-<li><a href="backtest_result_PLTR_1wk.html" target="_blank">backtest_result_PLTR_1wk.html</a></li>
-<li><a href="backtest_result_PLTR_1d.html" target="_blank">backtest_result_PLTR_1d.html</a></li>
-<li><a href="backtest_result_ONDS_1wk.html" target="_blank">backtest_result_ONDS_1wk.html</a></li>
-<li><a href="backtest_result_ONDS_1d.html" target="_blank">backtest_result_ONDS_1d.html</a></li>
-<li><a href="backtest_result_OKLO_1wk.html" target="_blank">backtest_result_OKLO_1wk.html</a></li>
-<li><a href="backtest_result_OKLO_1d.html" target="_blank">backtest_result_OKLO_1d.html</a></li>
-<li><a href="backtest_result_NVDA_1wk.html" target="_blank">backtest_result_NVDA_1wk.html</a></li>
-<li><a href="backtest_result_NVDA_1d.html" target="_blank">backtest_result_NVDA_1d.html</a></li>
-<li><a href="backtest_result_NTRA_1wk.html" target="_blank">backtest_result_NTRA_1wk.html</a></li>
-<li><a href="backtest_result_NTRA_1d.html" target="_blank">backtest_result_NTRA_1d.html</a></li>
-<li><a href="backtest_result_NNOX_1d.html" target="_blank">backtest_result_NNOX_1d.html</a></li>
-<li><a href="backtest_result_NIO_1wk.html" target="_blank">backtest_result_NIO_1wk.html</a></li>
-<li><a href="backtest_result_NIO_1d.html" target="_blank">backtest_result_NIO_1d.html</a></li>
-<li><a href="backtest_result_NFLX_1wk.html" target="_blank">backtest_result_NFLX_1wk.html</a></li>
-<li><a href="backtest_result_NFLX_1d.html" target="_blank">backtest_result_NFLX_1d.html</a></li>
-<li><a href="backtest_result_NBIS_1wk.html" target="_blank">backtest_result_NBIS_1wk.html</a></li>
-<li><a href="backtest_result_NBIS_1d.html" target="_blank">backtest_result_NBIS_1d.html</a></li>
-<li><a href="backtest_result_MSTR_1wk.html" target="_blank">backtest_result_MSTR_1wk.html</a></li>
-<li><a href="backtest_result_MSTR_1d.html" target="_blank">backtest_result_MSTR_1d.html</a></li>
-<li><a href="backtest_result_MRNA_1wk.html" target="_blank">backtest_result_MRNA_1wk.html</a></li>
-<li><a href="backtest_result_MRNA_1d.html" target="_blank">backtest_result_MRNA_1d.html</a></li>
-<li><a href="backtest_result_META_1wk.html" target="_blank">backtest_result_META_1wk.html</a></li>
-<li><a href="backtest_result_META_1d.html" target="_blank">backtest_result_META_1d.html</a></li>
-<li><a href="backtest_result_MCHI_1wk.html" target="_blank">backtest_result_MCHI_1wk.html</a></li>
-<li><a href="backtest_result_MCHI_1d.html" target="_blank">backtest_result_MCHI_1d.html</a></li>
-<li><a href="backtest_result_LUNR_1wk.html" target="_blank">backtest_result_LUNR_1wk.html</a></li>
-<li><a href="backtest_result_LUNR_1d.html" target="_blank">backtest_result_LUNR_1d.html</a></li>
-<li><a href="backtest_result_LINK-USD_1wk.html" target="_blank">backtest_result_LINK-USD_1wk.html</a></li>
-<li><a href="backtest_result_LINK-USD_1d.html" target="_blank">backtest_result_LINK-USD_1d.html</a></li>
-<li><a href="backtest_result_IONQ_1wk.html" target="_blank">backtest_result_IONQ_1wk.html</a></li>
-<li><a href="backtest_result_IONQ_1d.html" target="_blank">backtest_result_IONQ_1d.html</a></li>
-<li><a href="backtest_result_HYPE32196-USD_1wk.html" target="_blank">backtest_result_HYPE32196-USD_1wk.html</a></li>
-<li><a href="backtest_result_HYPE32196-USD_1d.html" target="_blank">backtest_result_HYPE32196-USD_1d.html</a></li>
-<li><a href="backtest_result_HOOD_1d.html" target="_blank">backtest_result_HOOD_1d.html</a></li>
-<li><a href="backtest_result_GOOG_1wk.html" target="_blank">backtest_result_GOOG_1wk.html</a></li>
-<li><a href="backtest_result_GOOG_1d.html" target="_blank">backtest_result_GOOG_1d.html</a></li>
-<li><a href="backtest_result_GLD_1wk.html" target="_blank">backtest_result_GLD_1wk.html</a></li>
-<li><a href="backtest_result_GLD_1d.html" target="_blank">backtest_result_GLD_1d.html</a></li>
-<li><a href="backtest_result_GH_1wk.html" target="_blank">backtest_result_GH_1wk.html</a></li>
-<li><a href="backtest_result_GH_1d.html" target="_blank">backtest_result_GH_1d.html</a></li>
-<li><a href="backtest_result_ETH-USD_1wk.html" target="_blank">backtest_result_ETH-USD_1wk.html</a></li>
-<li><a href="backtest_result_ETH-USD_1d.html" target="_blank">backtest_result_ETH-USD_1d.html</a></li>
-<li><a href="backtest_result_DE_1wk.html" target="_blank">backtest_result_DE_1wk.html</a></li>
-<li><a href="backtest_result_DE_1d.html" target="_blank">backtest_result_DE_1d.html</a></li>
-<li><a href="backtest_result_CRWV_1wk.html" target="_blank">backtest_result_CRWV_1wk.html</a></li>
-<li><a href="backtest_result_CRWV_1d.html" target="_blank">backtest_result_CRWV_1d.html</a></li>
-<li><a href="backtest_result_CRWD_1wk.html" target="_blank">backtest_result_CRWD_1wk.html</a></li>
-<li><a href="backtest_result_CRWD_1d.html" target="_blank">backtest_result_CRWD_1d.html</a></li>
-<li><a href="backtest_result_CRSP_1wk.html" target="_blank">backtest_result_CRSP_1wk.html</a></li>
-<li><a href="backtest_result_CRSP_1d.html" target="_blank">backtest_result_CRSP_1d.html</a></li>
-<li><a href="backtest_result_CRCL_1d.html" target="_blank">backtest_result_CRCL_1d.html</a></li>
-<li><a href="backtest_result_COIN_1wk.html" target="_blank">backtest_result_COIN_1wk.html</a></li>
-<li><a href="backtest_result_COIN_1d.html" target="_blank">backtest_result_COIN_1d.html</a></li>
-<li><a href="backtest_result_CMG_1wk.html" target="_blank">backtest_result_CMG_1wk.html</a></li>
-<li><a href="backtest_result_CMG_1d.html" target="_blank">backtest_result_CMG_1d.html</a></li>
-<li><a href="backtest_result_BTC-USD_1wk.html" target="_blank">backtest_result_BTC-USD_1wk.html</a></li>
+<p>Updated: 2026-01-03 18:01 UTC</p>
+
+<div class="grid">
+  <div class="column">
+    <h2>📈 Backtest – 1 Day</h2>
+    <ul>
+      <li><a href="backtest_result_ADA-USD_1d.html" target="_blank">backtest_result_ADA-USD_1d.html</a></li>
 <li><a href="backtest_result_BTC-USD_1d.html" target="_blank">backtest_result_BTC-USD_1d.html</a></li>
-<li><a href="backtest_result_BLSH_1d.html" target="_blank">backtest_result_BLSH_1d.html</a></li>
-<li><a href="backtest_result_BEAM_1wk.html" target="_blank">backtest_result_BEAM_1wk.html</a></li>
-<li><a href="backtest_result_BEAM_1d.html" target="_blank">backtest_result_BEAM_1d.html</a></li>
-<li><a href="backtest_result_BA_1wk.html" target="_blank">backtest_result_BA_1wk.html</a></li>
-<li><a href="backtest_result_BA_1d.html" target="_blank">backtest_result_BA_1d.html</a></li>
-<li><a href="backtest_result_ASTS_1wk.html" target="_blank">backtest_result_ASTS_1wk.html</a></li>
-<li><a href="backtest_result_ASTS_1d.html" target="_blank">backtest_result_ASTS_1d.html</a></li>
-<li><a href="backtest_result_ARKK_1wk.html" target="_blank">backtest_result_ARKK_1wk.html</a></li>
-<li><a href="backtest_result_ARKK_1d.html" target="_blank">backtest_result_ARKK_1d.html</a></li>
-<li><a href="backtest_result_ARKG_1wk.html" target="_blank">backtest_result_ARKG_1wk.html</a></li>
-<li><a href="backtest_result_ARKG_1d.html" target="_blank">backtest_result_ARKG_1d.html</a></li>
-<li><a href="backtest_result_AMD_1wk.html" target="_blank">backtest_result_AMD_1wk.html</a></li>
-<li><a href="backtest_result_AMD_1d.html" target="_blank">backtest_result_AMD_1d.html</a></li>
-<li><a href="backtest_result_ADPT_1wk.html" target="_blank">backtest_result_ADPT_1wk.html</a></li>
-<li><a href="backtest_result_ADPT_1d.html" target="_blank">backtest_result_ADPT_1d.html</a></li>
-<li><a href="backtest_result_ADA-USD_1wk.html" target="_blank">backtest_result_ADA-USD_1wk.html</a></li>
-<li><a href="backtest_result_ADA-USD_1d.html" target="_blank">backtest_result_ADA-USD_1d.html</a></li>
-<li><a href="backtest_result_ACHR_1wk.html" target="_blank">backtest_result_ACHR_1wk.html</a></li>
-<li><a href="backtest_result_ACHR_1d.html" target="_blank">backtest_result_ACHR_1d.html</a></li>
-<li><a href="backtest_result_ABSI_1wk.html" target="_blank">backtest_result_ABSI_1wk.html</a></li>
-<li><a href="backtest_result_ABSI_1d.html" target="_blank">backtest_result_ABSI_1d.html</a></li>
-<li><a href="backtest_result_588700.SS_1wk.html" target="_blank">backtest_result_588700.SS_1wk.html</a></li>
-<li><a href="backtest_result_588700.SS_1d.html" target="_blank">backtest_result_588700.SS_1d.html</a></li>
-<li><a href="backtest_result_159995.SZ_1wk.html" target="_blank">backtest_result_159995.SZ_1wk.html</a></li>
-<li><a href="backtest_result_159995.SZ_1d.html" target="_blank">backtest_result_159995.SZ_1d.html</a></li>
-<li><a href="backtest_result_000300.SS_1wk.html" target="_blank">backtest_result_000300.SS_1wk.html</a></li>
-<li><a href="backtest_result_000300.SS_1d.html" target="_blank">backtest_result_000300.SS_1d.html</a></li>
-<li><a href="backtest_result_000001.SS_1wk.html" target="_blank">backtest_result_000001.SS_1wk.html</a></li>
+<li><a href="backtest_result_ETH-USD_1d.html" target="_blank">backtest_result_ETH-USD_1d.html</a></li>
+<li><a href="backtest_result_HYPE32196-USD_1d.html" target="_blank">backtest_result_HYPE32196-USD_1d.html</a></li>
+<li><a href="backtest_result_LINK-USD_1d.html" target="_blank">backtest_result_LINK-USD_1d.html</a></li>
+<li><a href="backtest_result_SOL-USD_1d.html" target="_blank">backtest_result_SOL-USD_1d.html</a></li>
 <li><a href="backtest_result_000001.SS_1d.html" target="_blank">backtest_result_000001.SS_1d.html</a></li>
-<li><a href="RXRX_2025-12-17.html" target="_blank">RXRX_2025-12-17.html</a></li>
-<li><a href="RKLB_2025-12-25.html" target="_blank">RKLB_2025-12-25.html</a></li>
-<li><a href="RIVN_2025-12-16.html" target="_blank">RIVN_2025-12-16.html</a></li>
-<li><a href="NNOX_2025-12-21.html" target="_blank">NNOX_2025-12-21.html</a></li>
-<li><a href="NIO_2025-12-26.html" target="_blank">NIO_2025-12-26.html</a></li>
-<li><a href="LUNR_2025-12-14.html" target="_blank">LUNR_2025-12-14.html</a></li>
+<li><a href="backtest_result_000300.SS_1d.html" target="_blank">backtest_result_000300.SS_1d.html</a></li>
+<li><a href="backtest_result_159995.SZ_1d.html" target="_blank">backtest_result_159995.SZ_1d.html</a></li>
+<li><a href="backtest_result_588700.SS_1d.html" target="_blank">backtest_result_588700.SS_1d.html</a></li>
+<li><a href="backtest_result_ABSI_1d.html" target="_blank">backtest_result_ABSI_1d.html</a></li>
+<li><a href="backtest_result_ACHR_1d.html" target="_blank">backtest_result_ACHR_1d.html</a></li>
+<li><a href="backtest_result_ADPT_1d.html" target="_blank">backtest_result_ADPT_1d.html</a></li>
+<li><a href="backtest_result_AMD_1d.html" target="_blank">backtest_result_AMD_1d.html</a></li>
+<li><a href="backtest_result_ARKG_1d.html" target="_blank">backtest_result_ARKG_1d.html</a></li>
+<li><a href="backtest_result_ARKK_1d.html" target="_blank">backtest_result_ARKK_1d.html</a></li>
+<li><a href="backtest_result_ASTS_1d.html" target="_blank">backtest_result_ASTS_1d.html</a></li>
+<li><a href="backtest_result_BA_1d.html" target="_blank">backtest_result_BA_1d.html</a></li>
+<li><a href="backtest_result_BEAM_1d.html" target="_blank">backtest_result_BEAM_1d.html</a></li>
+<li><a href="backtest_result_BLSH_1d.html" target="_blank">backtest_result_BLSH_1d.html</a></li>
+<li><a href="backtest_result_CMG_1d.html" target="_blank">backtest_result_CMG_1d.html</a></li>
+<li><a href="backtest_result_COIN_1d.html" target="_blank">backtest_result_COIN_1d.html</a></li>
+<li><a href="backtest_result_CRCL_1d.html" target="_blank">backtest_result_CRCL_1d.html</a></li>
+<li><a href="backtest_result_CRSP_1d.html" target="_blank">backtest_result_CRSP_1d.html</a></li>
+<li><a href="backtest_result_CRWD_1d.html" target="_blank">backtest_result_CRWD_1d.html</a></li>
+<li><a href="backtest_result_CRWV_1d.html" target="_blank">backtest_result_CRWV_1d.html</a></li>
+<li><a href="backtest_result_DE_1d.html" target="_blank">backtest_result_DE_1d.html</a></li>
+<li><a href="backtest_result_GH_1d.html" target="_blank">backtest_result_GH_1d.html</a></li>
+<li><a href="backtest_result_GLD_1d.html" target="_blank">backtest_result_GLD_1d.html</a></li>
+<li><a href="backtest_result_GOOG_1d.html" target="_blank">backtest_result_GOOG_1d.html</a></li>
+<li><a href="backtest_result_HOOD_1d.html" target="_blank">backtest_result_HOOD_1d.html</a></li>
+<li><a href="backtest_result_IONQ_1d.html" target="_blank">backtest_result_IONQ_1d.html</a></li>
+<li><a href="backtest_result_LUNR_1d.html" target="_blank">backtest_result_LUNR_1d.html</a></li>
+<li><a href="backtest_result_MCHI_1d.html" target="_blank">backtest_result_MCHI_1d.html</a></li>
+<li><a href="backtest_result_META_1d.html" target="_blank">backtest_result_META_1d.html</a></li>
+<li><a href="backtest_result_MRNA_1d.html" target="_blank">backtest_result_MRNA_1d.html</a></li>
+<li><a href="backtest_result_MSTR_1d.html" target="_blank">backtest_result_MSTR_1d.html</a></li>
+<li><a href="backtest_result_NBIS_1d.html" target="_blank">backtest_result_NBIS_1d.html</a></li>
+<li><a href="backtest_result_NFLX_1d.html" target="_blank">backtest_result_NFLX_1d.html</a></li>
+<li><a href="backtest_result_NIO_1d.html" target="_blank">backtest_result_NIO_1d.html</a></li>
+<li><a href="backtest_result_NNOX_1d.html" target="_blank">backtest_result_NNOX_1d.html</a></li>
+<li><a href="backtest_result_NTRA_1d.html" target="_blank">backtest_result_NTRA_1d.html</a></li>
+<li><a href="backtest_result_NVDA_1d.html" target="_blank">backtest_result_NVDA_1d.html</a></li>
+<li><a href="backtest_result_OKLO_1d.html" target="_blank">backtest_result_OKLO_1d.html</a></li>
+<li><a href="backtest_result_ONDS_1d.html" target="_blank">backtest_result_ONDS_1d.html</a></li>
+<li><a href="backtest_result_PLTR_1d.html" target="_blank">backtest_result_PLTR_1d.html</a></li>
+<li><a href="backtest_result_POET_1d.html" target="_blank">backtest_result_POET_1d.html</a></li>
+<li><a href="backtest_result_PONY_1d.html" target="_blank">backtest_result_PONY_1d.html</a></li>
+<li><a href="backtest_result_PSNL_1d.html" target="_blank">backtest_result_PSNL_1d.html</a></li>
+<li><a href="backtest_result_QQQ_1d.html" target="_blank">backtest_result_QQQ_1d.html</a></li>
+<li><a href="backtest_result_QTUM_1d.html" target="_blank">backtest_result_QTUM_1d.html</a></li>
+<li><a href="backtest_result_RIVN_1d.html" target="_blank">backtest_result_RIVN_1d.html</a></li>
+<li><a href="backtest_result_RKLB_1d.html" target="_blank">backtest_result_RKLB_1d.html</a></li>
+<li><a href="backtest_result_ROKU_1d.html" target="_blank">backtest_result_ROKU_1d.html</a></li>
+<li><a href="backtest_result_RXRX_1d.html" target="_blank">backtest_result_RXRX_1d.html</a></li>
+<li><a href="backtest_result_SLV_1d.html" target="_blank">backtest_result_SLV_1d.html</a></li>
+<li><a href="backtest_result_SOXL_1d.html" target="_blank">backtest_result_SOXL_1d.html</a></li>
+<li><a href="backtest_result_SPXL_1d.html" target="_blank">backtest_result_SPXL_1d.html</a></li>
+<li><a href="backtest_result_SPY_1d.html" target="_blank">backtest_result_SPY_1d.html</a></li>
+<li><a href="backtest_result_TECL_1d.html" target="_blank">backtest_result_TECL_1d.html</a></li>
+<li><a href="backtest_result_TEM_1d.html" target="_blank">backtest_result_TEM_1d.html</a></li>
+<li><a href="backtest_result_TER_1d.html" target="_blank">backtest_result_TER_1d.html</a></li>
+<li><a href="backtest_result_TOST_1d.html" target="_blank">backtest_result_TOST_1d.html</a></li>
+<li><a href="backtest_result_TQQQ_1d.html" target="_blank">backtest_result_TQQQ_1d.html</a></li>
+<li><a href="backtest_result_TRMB_1d.html" target="_blank">backtest_result_TRMB_1d.html</a></li>
+<li><a href="backtest_result_TSLA_1d.html" target="_blank">backtest_result_TSLA_1d.html</a></li>
+<li><a href="backtest_result_TWST_1d.html" target="_blank">backtest_result_TWST_1d.html</a></li>
+<li><a href="backtest_result_UFO_1d.html" target="_blank">backtest_result_UFO_1d.html</a></li>
+<li><a href="backtest_result_UNH_1d.html" target="_blank">backtest_result_UNH_1d.html</a></li>
+<li><a href="backtest_result_VNAM_1d.html" target="_blank">backtest_result_VNAM_1d.html</a></li>
+<li><a href="backtest_result_^HSI_1d.html" target="_blank">backtest_result_^HSI_1d.html</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h2>📉 Backtest – 1 Week</h2>
+    <ul>
+      <li><a href="backtest_result_ADA-USD_1wk.html" target="_blank">backtest_result_ADA-USD_1wk.html</a></li>
+<li><a href="backtest_result_BTC-USD_1wk.html" target="_blank">backtest_result_BTC-USD_1wk.html</a></li>
+<li><a href="backtest_result_ETH-USD_1wk.html" target="_blank">backtest_result_ETH-USD_1wk.html</a></li>
+<li><a href="backtest_result_HYPE32196-USD_1wk.html" target="_blank">backtest_result_HYPE32196-USD_1wk.html</a></li>
+<li><a href="backtest_result_LINK-USD_1wk.html" target="_blank">backtest_result_LINK-USD_1wk.html</a></li>
+<li><a href="backtest_result_SOL-USD_1wk.html" target="_blank">backtest_result_SOL-USD_1wk.html</a></li>
+<li><a href="backtest_result_000001.SS_1wk.html" target="_blank">backtest_result_000001.SS_1wk.html</a></li>
+<li><a href="backtest_result_000300.SS_1wk.html" target="_blank">backtest_result_000300.SS_1wk.html</a></li>
+<li><a href="backtest_result_159995.SZ_1wk.html" target="_blank">backtest_result_159995.SZ_1wk.html</a></li>
+<li><a href="backtest_result_588700.SS_1wk.html" target="_blank">backtest_result_588700.SS_1wk.html</a></li>
+<li><a href="backtest_result_ABSI_1wk.html" target="_blank">backtest_result_ABSI_1wk.html</a></li>
+<li><a href="backtest_result_ACHR_1wk.html" target="_blank">backtest_result_ACHR_1wk.html</a></li>
+<li><a href="backtest_result_ADPT_1wk.html" target="_blank">backtest_result_ADPT_1wk.html</a></li>
+<li><a href="backtest_result_AMD_1wk.html" target="_blank">backtest_result_AMD_1wk.html</a></li>
+<li><a href="backtest_result_ARKG_1wk.html" target="_blank">backtest_result_ARKG_1wk.html</a></li>
+<li><a href="backtest_result_ARKK_1wk.html" target="_blank">backtest_result_ARKK_1wk.html</a></li>
+<li><a href="backtest_result_ASTS_1wk.html" target="_blank">backtest_result_ASTS_1wk.html</a></li>
+<li><a href="backtest_result_BA_1wk.html" target="_blank">backtest_result_BA_1wk.html</a></li>
+<li><a href="backtest_result_BEAM_1wk.html" target="_blank">backtest_result_BEAM_1wk.html</a></li>
+<li><a href="backtest_result_CMG_1wk.html" target="_blank">backtest_result_CMG_1wk.html</a></li>
+<li><a href="backtest_result_COIN_1wk.html" target="_blank">backtest_result_COIN_1wk.html</a></li>
+<li><a href="backtest_result_CRSP_1wk.html" target="_blank">backtest_result_CRSP_1wk.html</a></li>
+<li><a href="backtest_result_CRWD_1wk.html" target="_blank">backtest_result_CRWD_1wk.html</a></li>
+<li><a href="backtest_result_CRWV_1wk.html" target="_blank">backtest_result_CRWV_1wk.html</a></li>
+<li><a href="backtest_result_DE_1wk.html" target="_blank">backtest_result_DE_1wk.html</a></li>
+<li><a href="backtest_result_GH_1wk.html" target="_blank">backtest_result_GH_1wk.html</a></li>
+<li><a href="backtest_result_GLD_1wk.html" target="_blank">backtest_result_GLD_1wk.html</a></li>
+<li><a href="backtest_result_GOOG_1wk.html" target="_blank">backtest_result_GOOG_1wk.html</a></li>
+<li><a href="backtest_result_IONQ_1wk.html" target="_blank">backtest_result_IONQ_1wk.html</a></li>
+<li><a href="backtest_result_LUNR_1wk.html" target="_blank">backtest_result_LUNR_1wk.html</a></li>
+<li><a href="backtest_result_MCHI_1wk.html" target="_blank">backtest_result_MCHI_1wk.html</a></li>
+<li><a href="backtest_result_META_1wk.html" target="_blank">backtest_result_META_1wk.html</a></li>
+<li><a href="backtest_result_MRNA_1wk.html" target="_blank">backtest_result_MRNA_1wk.html</a></li>
+<li><a href="backtest_result_MSTR_1wk.html" target="_blank">backtest_result_MSTR_1wk.html</a></li>
+<li><a href="backtest_result_NBIS_1wk.html" target="_blank">backtest_result_NBIS_1wk.html</a></li>
+<li><a href="backtest_result_NFLX_1wk.html" target="_blank">backtest_result_NFLX_1wk.html</a></li>
+<li><a href="backtest_result_NIO_1wk.html" target="_blank">backtest_result_NIO_1wk.html</a></li>
+<li><a href="backtest_result_NTRA_1wk.html" target="_blank">backtest_result_NTRA_1wk.html</a></li>
+<li><a href="backtest_result_NVDA_1wk.html" target="_blank">backtest_result_NVDA_1wk.html</a></li>
+<li><a href="backtest_result_OKLO_1wk.html" target="_blank">backtest_result_OKLO_1wk.html</a></li>
+<li><a href="backtest_result_ONDS_1wk.html" target="_blank">backtest_result_ONDS_1wk.html</a></li>
+<li><a href="backtest_result_PLTR_1wk.html" target="_blank">backtest_result_PLTR_1wk.html</a></li>
+<li><a href="backtest_result_POET_1wk.html" target="_blank">backtest_result_POET_1wk.html</a></li>
+<li><a href="backtest_result_PONY_1wk.html" target="_blank">backtest_result_PONY_1wk.html</a></li>
+<li><a href="backtest_result_PSNL_1wk.html" target="_blank">backtest_result_PSNL_1wk.html</a></li>
+<li><a href="backtest_result_QQQ_1wk.html" target="_blank">backtest_result_QQQ_1wk.html</a></li>
+<li><a href="backtest_result_QTUM_1wk.html" target="_blank">backtest_result_QTUM_1wk.html</a></li>
+<li><a href="backtest_result_RIVN_1wk.html" target="_blank">backtest_result_RIVN_1wk.html</a></li>
+<li><a href="backtest_result_RKLB_1wk.html" target="_blank">backtest_result_RKLB_1wk.html</a></li>
+<li><a href="backtest_result_ROKU_1wk.html" target="_blank">backtest_result_ROKU_1wk.html</a></li>
+<li><a href="backtest_result_RXRX_1wk.html" target="_blank">backtest_result_RXRX_1wk.html</a></li>
+<li><a href="backtest_result_SLV_1wk.html" target="_blank">backtest_result_SLV_1wk.html</a></li>
+<li><a href="backtest_result_SOXL_1wk.html" target="_blank">backtest_result_SOXL_1wk.html</a></li>
+<li><a href="backtest_result_SPXL_1wk.html" target="_blank">backtest_result_SPXL_1wk.html</a></li>
+<li><a href="backtest_result_SPY_1wk.html" target="_blank">backtest_result_SPY_1wk.html</a></li>
+<li><a href="backtest_result_TECL_1wk.html" target="_blank">backtest_result_TECL_1wk.html</a></li>
+<li><a href="backtest_result_TEM_1wk.html" target="_blank">backtest_result_TEM_1wk.html</a></li>
+<li><a href="backtest_result_TER_1wk.html" target="_blank">backtest_result_TER_1wk.html</a></li>
+<li><a href="backtest_result_TOST_1wk.html" target="_blank">backtest_result_TOST_1wk.html</a></li>
+<li><a href="backtest_result_TQQQ_1wk.html" target="_blank">backtest_result_TQQQ_1wk.html</a></li>
+<li><a href="backtest_result_TRMB_1wk.html" target="_blank">backtest_result_TRMB_1wk.html</a></li>
+<li><a href="backtest_result_TSLA_1wk.html" target="_blank">backtest_result_TSLA_1wk.html</a></li>
+<li><a href="backtest_result_TWST_1wk.html" target="_blank">backtest_result_TWST_1wk.html</a></li>
+<li><a href="backtest_result_UFO_1wk.html" target="_blank">backtest_result_UFO_1wk.html</a></li>
+<li><a href="backtest_result_UNH_1wk.html" target="_blank">backtest_result_UNH_1wk.html</a></li>
+<li><a href="backtest_result_VNAM_1wk.html" target="_blank">backtest_result_VNAM_1wk.html</a></li>
+<li><a href="backtest_result_^HSI_1wk.html" target="_blank">backtest_result_^HSI_1wk.html</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h2>🧠 Analysis</h2>
+    <ul>
+      <li><a href="BMNR_2026-01-03.html" target="_blank">BMNR_2026-01-03.html</a></li>
 <li><a href="CRWV_2025-12-20.html" target="_blank">CRWV_2025-12-20.html</a></li>
-<li><a href="BMNR_2026-01-03.html" target="_blank">BMNR_2026-01-03.html</a></li>
-</ul>
+<li><a href="LUNR_2025-12-14.html" target="_blank">LUNR_2025-12-14.html</a></li>
+<li><a href="NIO_2025-12-26.html" target="_blank">NIO_2025-12-26.html</a></li>
+<li><a href="NNOX_2025-12-21.html" target="_blank">NNOX_2025-12-21.html</a></li>
+<li><a href="RIVN_2025-12-16.html" target="_blank">RIVN_2025-12-16.html</a></li>
+<li><a href="RKLB_2025-12-25.html" target="_blank">RKLB_2025-12-25.html</a></li>
+<li><a href="RXRX_2025-12-17.html" target="_blank">RXRX_2025-12-17.html</a></li>
+    </ul>
+  </div>
+</div>
+
 </body>
 </html>
